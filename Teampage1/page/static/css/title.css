@@ -1,0 +1,144 @@
+@keyframes rolling {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20%);
+    }
+    50% {
+        transform: translateY(-40%);
+    }
+    75% {
+        transform: translateY(-60%);
+    }
+    100% {
+        transform: translateY(-80%);
+    }
+}
+
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.first_li {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.first_li h1{
+
+    font-size: 60px;
+    color: ivory;
+}
+
+.hello {
+    
+    color: ivory;
+}
+
+h1 > span {
+    font-style: italic;
+    color: #FB5656;
+   
+}
+
+.profile-header {
+    /* font-family: 'Poor Story', cursive;*/
+    font-size: 30px ;
+    padding-bottom: 3%;
+     
+    margin-bottom: 50px;
+    
+    text-align: center;
+    
+    
+
+
+}
+
+
+
+.name {
+    display: table-cell;
+    justify-content: center;
+    align-items:center;
+    
+    font-size: 24px;
+    line-height: 1.5;
+   
+    margin-bottom: 40px;
+   /* font-family: 'Castoro', serif; */
+
+    margin-top: 100px;
+    color: ivory;
+    
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+
+.name > h1{
+    color: ivory; 
+    margin-top: 10px;
+    
+}
+
+
+.name-likes {
+    display: inline-block;
+    
+    vertical-align: top;
+    height: 1.5em;
+    overflow: hidden;
+    padding-right: 0.5em;
+    position: relative;
+    
+}
+
+.name-likes::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: -1em ;
+    /*box-shadow: inset 0 0 10px 10px #111;*/
+}
+
+.name-likes-list { /*돌아가는 박스 리스트*/
+    animation-name: rolling;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.name-likes-list > li{ /*돌아가는 한글 내용 자체*/
+    
+   
+    color: #FB5656;
+
+    font-family: 'SLEIGothicTTF';
+    font-style: oblique;
+
+}
+
+

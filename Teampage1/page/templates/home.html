@@ -1,0 +1,226 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/title.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/plus.css' %}">
+    <link rel="stylesheet" href="{% static 'css/members.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+
+    <title>팀페이지</title>
+
+</head>
+
+<body style="background-color:black">
+
+    <div class="wrap">
+        <div class="intro_bg">
+            
+            <div class="header">
+
+               
+            <img src="{% static 'image/logo1.png' %}">
+
+              <ul class="nav">
+              
+              
+               <li><a href="#">HOME</a></li>
+               <li><a href="#">TEAM</a></li>
+               <li><a href="#">ABOUT</a></li>
+               <li><a href="#">SERVICE</a></li>
+              </ul>
+
+            </div>
+
+            <div class="intro_text">
+            <h1> Gollaba </h1>
+            <h2 class="contents1">선택이 어려울 때, 손쉽고 빠르게 의견을 받아보세요.</h2>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="text-box">
+        <p class="text" style="font-size: 25px;">
+            안녕하세요. 저희는 '허불허' 팀입니다. <br>
+            <br>
+            '허불허'는 '허락, 불허락'의 합성어로, 선택을 하는데 다른 사람의 조언이 필요할 때 사용하는 용어입니다. <br>
+            <br>
+            저희는 '골라바'를 통해 사람들이 무언가를 결정하기 어려울 때 편하게 사용할 수 있는 커뮤니티를 제공하고 싶습니다. <br>
+            <br>
+            <br>
+            <br>
+            모두가 더 나은 결정을 할 수 있도록, <br>
+            <br>
+            서로가 더 좋은 소통을 할 수 있도록, <br>
+            <br>
+            '골라바'를 통해 노력하겠습니다.
+        </p>
+    </div>
+        
+
+    <div class="logo_md">
+        
+               
+        <img src="{% static 'image/logo1.png' %}">
+        
+    </div>
+
+
+    
+    <div class="text-box">
+        <p class="text" style="font-size: 25px;"> 
+            <span>
+                "너무 비싼가? 내 눈에만 이쁜가? 사야 돼, 말아야 돼? ..."<br>
+            </span>
+            <br>
+            이런 고민으로 일주일 동안 골머리를 앓은 적이 있지 않으신가요?<br>
+            <!-- <br>
+            돌림판이라는 운에 맡기자니 왠지 찝찝하고 내키지 않습니다.<br>
+            친구들에게 물어봐도 시원한 답을 얻긴 힘듭니다.<br> -->
+            <br>
+            <br>
+            더 이상 고민하지 마세요.<br>
+            <br>
+            <br>
+            <!-- '골라바'를 이용해 많은 사람들의 의견을 손쉽게 받아보세요.<br> -->
+            <!-- <br> -->
+            사소한 고민이라도 걱정 없이 <br>
+            A or B 투표 하나만 게시하면 끝! <br>
+            <br>
+            <br>
+            질문할 집단을 설정해 글을 올릴 수도 있습니다.<br>
+            <br>
+            20대에게만 질문하기, 여성에게만 질문하기, 3~40대 남성에게 질문하기
+            <br>
+             모두 가능합니다! <br>
+            <br> 
+            <br>
+            '골라바'가 합리적인 결정을 도와드려요~ <br>
+            <br>
+            <br>
+            <br>
+            서비스에 대해 더 알고 싶다면? <br>
+            <br>
+            click ↓ here
+        </p>
+    </div>
+
+    <div class="logo_bg">
+        
+        <a href="#"><img src="{%static 'image/logo2.png'%}"> </a>
+        <h1 class="learn">Learn more?</h1>
+    </div>
+
+
+    <div class="rolling">
+
+        <div class="profile-header">
+            <ul class="name">
+                
+                <li class="first_li"> <h1> Who made it?</h1> </li>
+                <li> <h1 class="hello"> Hello, We are <span>HBH</span></h1> </li>
+                
+                and we go for ...
+
+                <li class="name-likes">
+                    
+                    <ul class="name-likes-list">
+                        <li>맞춤형</li> 
+                        <li>양자택일</li>
+                        <li>우유부단</li>
+                        <li>골라줘</li>
+                        <li>맞춤형</li> 
+                    </ul>
+                    
+                </li>
+            </ul>
+        
+        </div>
+    </div>
+
+    
+    <div class="wrapper">
+        <ul class="team">
+            
+            <li class="team-item">
+                <div class="profile profile_green">
+                    <img src= "{%static 'image/hyebin.jpg'%}"> 
+                    <div class="profile-contents">
+                        <h2>Hyebin <span>BABYLION_EHWA</span></h2>
+                        <p>
+                            💌 email: 1986004@ewhain.net <br>
+                            🍫 kakao: rlagpqls <br>
+                            👾 insta: @j_tntmhey <br>
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="team-item">
+                <div class="profile profile_yuna">
+                    <img src="{%static 'image/yuna.png'%}">
+                    <div class="profile-contents">
+                        <h2>Yuna <span>BABYLION_EHWA</span></h2>
+                        <p>
+                            💌 email : yunakim@ewhain.net <br>
+                            🐱 github : github.com/ynk1011 <br>
+                            👾 instagram : @y00ng.ee <br>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="team-item">
+                <div class="profile  profile_red">
+                    <img src="{%static 'image/dayun2.png'%}">
+                    <div class="profile-contents">
+                        <h2>Dayun <span>BABYLION_EHWA</span></h2>
+                        <p>
+                            💌 email: dy6578ekdbs@ewhain.net <br>
+                            🍫 insta: @maru_is_big <br>
+                            👾 github : @dy6578ekdbs<br>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="team-item">
+                <div class="profile  profile_purple">
+                    <img src="{%static 'image/maru.png'%}">
+                    <div class="profile-contents">
+                        <h2>Maru <span>Cat</span></h2>
+                        <p>
+                            💌 sex: male<br>
+                            🍫 age : 5 <br>
+                            👾 Characteristics : cute<br>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+
+</body>
+
+
+</html>

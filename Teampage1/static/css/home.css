@@ -1,0 +1,161 @@
+body, ul, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+body {
+    background-color:#111;
+    color: #999;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team {
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.team-item{
+    flex-basis: 100px;
+    flex-shrink: 0;
+    margin : 0 10px;
+    transition : all .4s;
+}
+
+.profile_red{
+    color: darkred;
+}
+
+
+.profile_green{
+    color: green;
+}
+
+
+.profile_pink{
+    color: pink;
+}
+
+
+.profile_yuna{
+    color: #770E18;
+}
+
+.team-item:hover{
+    flex-basis:150px;
+    margin: 0 20px;
+   
+}
+.team-item img {
+    width : 100%;
+}
+
+.profile {
+    background-color : #222;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile:before{
+    content: ' ';
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.4+100 */
+ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height:150px;
+}
+
+.profile-contents{
+    
+    position: absolute;
+    left:0;
+    bottom:0;
+    padding : 10px;
+}
+    
+
+.profile-contents p {
+    
+    color: white;
+    font-size:20px;
+    min-width: 140px;
+    max-height:0;
+    overflow:hidden;
+    line-height:1.2;
+    transition: all .4s;
+    opacity:0;
+    transition-delay: .3s;
+}
+
+
+.team-item:hover .profile-contents p{
+    max-height: 6em;
+    opacity:1;
+    margin-top: 0.2em;
+
+}
+
+
+.profile-contents h2 {
+<<<<<<< Updated upstream
+    font-size: 20px;
+=======
+    font-size: 30px;
+>>>>>>> Stashed changes
+}
+
+.profile-contents h2 span {
+    display: block;
+<<<<<<< Updated upstream
+    font-size:12px;
+}
+=======
+    font-size:15px;
+}
+
+
+
+.profile_red{
+    color: darkred;
+}
+
+
+.profile_green{
+    color: green;
+}
+
+.profile_pink{
+    color: pink;
+}
+
+
+.profile_yuna{
+    color: #770E18;
+}
+
+
+h3{
+    color: white;
+    
+    text-align: center;
+}
+
+>>>>>>> Stashed changes

@@ -1,0 +1,124 @@
+*{
+   
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.3+0,0+100;Neutral+Density */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    font-family:'IBMPlexSansKR-Regular' ;
+    
+    width: 500px;
+    margin: auto;
+}
+
+
+.intro_bg{
+    background-image: url("/static/image/lion.jpg");
+    
+    width: 100%;
+    height: 718px;
+}
+
+.header{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    height: 86px;
+
+}
+
+.searchArea > form > input{
+    border:none;
+    width:250px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.searchArea > form > span {
+    width: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.nav{
+    display: flex;
+    width: 1280px;
+    height: 86px;
+    justify-content: flex-end;
+    line-height: 86px;
+    position: relative;
+    left: 100px;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.nav > li > a{
+    color: white;
+  
+}
+
+/*
+.nav > li > img{
+   
+        width: 160px;
+        height: 40px;
+        object-fit: cover;
+      
+}*/
+
+.header > img{
+
+    position: relative;
+    right: 200px;
+    top: 25px;
+
+    width: 160px;
+    height: 40px;
+}
+
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+    
+
+
+.intro_text > h1{
+    color:white;
+    margin-bottom: 5px;
+    font-size: 80px;
+
+}
+
+.intro_text > h2{
+    color:white;
+   
+}

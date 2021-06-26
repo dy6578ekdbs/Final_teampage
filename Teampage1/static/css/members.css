@@ -1,0 +1,70 @@
+* {
+   /* background-color: black;*/
+    color: white;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.text-box{
+    margin-top: 200px;
+}
+
+.text{
+    font-family: 'MaruBuri-Regular';
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    left: 46%;
+}
+
+
+.text {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+.logo_bg img{
+
+
+    
+    width: 200px;
+    height: 200px;
+
+
+}
+
+
+.logo_md{
+    margin-top: 300px;
+    text-align: center;
+}
+
+
+
+.logo_bg{
+    color: beige;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+s
+.learn{
+    position: relative;
+    left: 5px;
+    font-size: 25px;
+}
